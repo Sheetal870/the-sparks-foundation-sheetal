@@ -1,0 +1,475 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 45%;
+    display: flex;
+    border: 2px solid white;
+    border-radius: 50%;
+    align-items: center;
+}
+
+.navbar{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ position: sticky;
+ top: 0;
+ cursor: pointer;
+}
+
+.nav-list{
+width: 70%;
+list-style: none;
+align-items: initial;
+display: flex;
+}
+
+.nav-list li {
+    padding:20px 15px;
+    list-style: none;
+    font-size: 17px;
+    
+}
+.nav-list li a{
+   color: white;
+   text-decoration: none; 
+   display: block;
+}
+
+.nav-list li a:hover {
+    color: grey;
+    text-decoration: none; 
+    background-color:white;
+    
+ }
+
+.background{
+    background: rgba(0, 0, 0, 0.7)url(img/dollar.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.firstsection{
+    height: 60vh;
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
+}
+
+.firstHalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 2%;
+}
+
+.secondHalf{
+    width: 50%;
+    
+}
+
+
+.secondHalf img{
+    width: 200%;
+    /* display: block; */
+    margin: 60px;
+    
+}
+
+.text-big{
+font-size: 30px;
+text-decoration: none;
+padding: 5px;
+}
+
+.text-small{
+font-size: 20px;
+text-decoration: none;
+padding: 10px;
+}
+
+.btn{
+    padding: 8px 20px;
+    margin: 7px 3px;
+    border: 1px solid white;
+    border-radius: 8px;
+    background:none;
+    color: white;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    }
+
+
+    .btn-dark{
+    color: black;
+    border: 2px solid grey;
+    margin: 11px 192px;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .btn a{
+        color: white;
+        text-decoration: none;
+    }
+    .sectionTag{
+        padding: 16px 0;
+    }
+
+    .section{
+     height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+        }
+    
+    .textsmall{
+        font-size: 19;
+    }
+
+    .paras{
+        padding:0px 65px ;
+    }
+       
+    .Left{
+         flex-direction: row-reverse;
+    }
+
+    .sectionSubTag{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .thumbnail img{
+        
+        width: 250px;
+        border-radius:26px ;
+        margin-top: 19px;
+        height: 250px;
+       
+    }
+
+
+    .nail{
+        
+        padding-left: 35%;
+        
+    }
+
+    .nail img{
+        width: 250px;
+        height: 150px;
+    }
+
+
+    .contact{
+        background-color: rgba(35, 34, 37, 0.7);
+        height: 30vh;
+        padding-left: 98px;
+        padding-top: 43px;
+        font-size: 25px;
+        color: white;
+
+    }
+
+    .contact li{
+        list-style: none;
+    }
+    
+    .sub-footer{
+        width: 1770px;
+        height: 25vh;
+        
+         }
+.link li a{
+    color: white;
+}
+
+    
+
+    .text-center{
+        text-align: center;
+        padding: 22px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    .form{
+        max-width: 529px;
+        margin: 13px auto;
+    }
+    .form-input{
+        width: 100%;
+        font-size: 19px;
+        border: 2px solid grey;
+        border-radius: 6px;
+        margin-top: 30px;
+        margin: 14px 0;
+        padding: 5px 3px;
+    }
+
+    
+    .table{
+        border: 0px solid black;
+        width: 900px;
+        height: 600px;
+        margin: 60px auto;
+        border-spacing: 0px;
+        background-color: aliceblue;
+        border-radius: 5%;
+    }
+    .table td{
+        width: 50%px;
+        height: 10px;
+        border: 0px solid black;
+    
+    }
+
+    .img1{
+        height: 600px;
+        width: 400px;
+        border-radius: 5%;
+        border-top-left-radius: 0%;
+        border-bottom-left-radius: 0%;
+    }
+
+   .signupimg{
+    width: 10%;
+    /* display: flex; */
+    border: 0px solid black;
+    border-radius: 50%;
+    margin-left: 122px;
+    margin-top: -142px;
+    /* margin: -39px 361px 38px auto; */
+    display: flex;
+}
+
+.img2{
+    display: flex;
+    margin-left: 177px;
+    margin-top: -45px;
+}
+.head1{
+    margin-top: 60px;
+    margin-left: 136px;
+    margin-bottom: 20px;
+}
+.signupform{
+    width: 81%;
+    font-size: 18px;
+    border: 1px solid grey;
+    border-radius: 22px;
+    margin-top: 18px;
+    margin: 14px 42px;
+    padding: 3px 9px;
+    margin-bottom: -17px;
+}
+.text.footer{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'Ubuntu', sans-serif;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+
+.burger{
+    display: none;
+position: absolute;
+cursor: pointer;
+right: 5%;
+top: 15px;
+}
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+}
+
+.logo1 {
+   
+    justify-content: right;
+    align-items: center;
+    width: 285px;
+    border-radius: 73%;
+    border: 2px solid grey;
+    padding: -28px;
+    margin-top: 94px;
+    /* margin-right: 6px; */
+    margin-left: 919px;
+}
+
+.login{
+    width: 81%;
+    font-size: 18px;
+    border: 1px solid grey;
+    border-radius: 46px;
+    margin-top: 8px;
+    margin: 26px 40px;
+    padding: 9px 10px;
+    margin-bottom: 4px;
+}
+
+.tb1{
+    height: 750px;
+    width: 1400px;
+    background-color: rgb(235, 231, 231);
+    border: 1px solid grey;
+    margin-bottom:100px ;
+}
+
+.tractors{
+    margin-left: 365px;
+    padding-top: 20px;
+    
+}
+
+
+.Sert1{
+    border: 1px solid black;
+    align-self: right;
+}
+
+.ser-soil{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+}
+
+.soil{
+    padding-left: 150px;
+    padding-right: 200px;
+    padding-top: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ser-red:hover {
+ color: red
+}
+.ser-blue:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+   }
+
+
+   .ser-white{
+       color: white;
+   }
+   .ser-white:hover{
+       color:rgb(182, 14, 14);
+   }
+
+   .blue-btn :hover{
+         background-color: blue;
+         color: white;  
+         cursor: pointer;
+   }
+   .organic{
+       padding-left: 200px;
+       padding-bottom: 100px;
+       padding-right: 90px;
+   }
+   
+   .dropbtn{
+    
+    color:black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+   }
+
+   .dropbtn{
+       position: relative;
+       display:inline-block;
+
+   }
+
+   .dropdown-content{
+        display: none;
+        position: absolute;
+        background-color: rgb(95, 92, 92);
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+   }
+
+   .dropdown-content  a{
+       color: black;
+       padding: 12px 16px;
+       text-decoration: none;
+       display: block;
+   }
+
+   .dropdown-content a:hover{
+       background-color: black;
+       
+   }
+   .dropbtn:hover .dropdown-content{
+       display: block;
+   }
+      
+   .dropbtn:hover .dropbtn{
+       background-color: #3e8e41;
+   }
+
+
+   .topcrops{
+       background-color: whitesmoke;
+       color: black;
+       text-align: center;
+       height: 90px;
+       font-size: 40px;
+       line-height: 60%px;
+   }
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:1140px){
+.nav-list{
+    flex-direction: column;
+}
+.navbar{
+    flex-direction: column;
+}
+.burger{
+    display: block;
+}
+.h-nav{
+    height: 72px;
+}
+}
+
+.head2{
+    margin-left: 82px;
+}
+
